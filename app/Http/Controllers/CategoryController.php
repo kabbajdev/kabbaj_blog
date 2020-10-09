@@ -36,4 +36,9 @@ class CategoryController extends Controller
         $category->delete();
         return redirect('/category');
     }
+
+  //ceci juste une petite demo
+    public function update($id) {
+        return $id;
+    }
 }
